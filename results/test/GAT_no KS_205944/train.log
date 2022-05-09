@@ -1,0 +1,825 @@
+05-04 20:59:44 model_name: GAT
+05-04 20:59:44 sample_length: 10000
+05-04 20:59:44 cuda_device: 0
+05-04 20:59:44 checkpoint_dir: ./results/test
+05-04 20:59:44 fault_num: 5
+05-04 20:59:44 sample_size: 200
+05-04 20:59:44 train_sample: 10
+05-04 20:59:44 train_num: 1
+05-04 20:59:44 data_save: data_C_k3
+05-04 20:59:44 my_way: no KS
+05-04 20:59:44 k_value: 3
+05-04 20:59:44 opt: adam
+05-04 20:59:44 lr: 0.01
+05-04 20:59:44 momentum: 0.9
+05-04 20:59:44 weight_decay: 0.0005
+05-04 20:59:44 lr_scheduler: step
+05-04 20:59:44 gamma: 0.1
+05-04 20:59:44 steps: 200,300
+05-04 20:59:44 resume: 
+05-04 20:59:44 max_epoch: 400
+05-04 20:59:44 using 1 gpus
+05-04 20:59:45 
+ 伪标签准确率：1.0000 
+
+05-04 20:59:45 current lr: [0.01]
+05-04 20:59:47 Epoch: 0 train-Loss: 1.541975 train-Acc: 0.4000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 1 train-Loss: 1.218705 train-Acc: 0.6000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 2 train-Loss: 2.903447 train-Acc: 0.8000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 3 train-Loss: 0.028964 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 4 train-Loss: 0.003453 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 5 train-Loss: 0.236318 train-Acc: 0.8000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 6 train-Loss: 0.000006 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 7 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 8 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 9 train-Loss: 0.000022 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 10 train-Loss: 0.000005 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 11 train-Loss: 0.017001 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 12 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 13 train-Loss: 0.000005 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 14 train-Loss: 0.000017 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 15 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 16 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 17 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 18 train-Loss: 0.000007 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 19 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 20 train-Loss: 0.000018 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 21 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:47 Epoch: 22 train-Loss: 0.000004 train-Acc: 1.0000
+05-04 20:59:47 current lr: [0.01]
+05-04 20:59:48 Epoch: 23 train-Loss: 0.000123 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 24 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 25 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 26 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 27 train-Loss: 0.000004 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 28 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 29 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 30 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 31 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 32 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 33 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 34 train-Loss: 0.000014 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 35 train-Loss: 0.000046 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 36 train-Loss: 0.000037 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 37 train-Loss: 0.003451 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 38 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 39 train-Loss: 0.000761 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 40 train-Loss: 0.000008 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 41 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 42 train-Loss: 0.000005 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 43 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 44 train-Loss: 0.001280 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 45 train-Loss: 0.000097 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 46 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 47 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 48 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 49 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 50 train-Loss: 0.000865 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 51 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 52 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 53 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 54 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 55 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 56 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 57 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 58 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 59 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 60 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 61 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 62 train-Loss: 0.000012 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 63 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 64 train-Loss: 0.000004 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 65 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 66 train-Loss: 0.000061 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 67 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 68 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 69 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 70 train-Loss: 0.000007 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 71 train-Loss: 0.000005 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 72 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 73 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 74 train-Loss: 0.000744 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 75 train-Loss: 0.000004 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 76 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 77 train-Loss: 0.000008 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 78 train-Loss: 0.000003 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 79 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 80 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 81 train-Loss: 0.000006 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 82 train-Loss: 0.000004 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 83 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 84 train-Loss: 0.000494 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 85 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 86 train-Loss: 0.000003 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 87 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 88 train-Loss: 0.000002 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 89 train-Loss: 0.000005 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 90 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 91 train-Loss: 0.000021 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 92 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 93 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 94 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 95 train-Loss: 0.000000 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 96 train-Loss: 0.000426 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 97 train-Loss: 0.000002 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 98 train-Loss: 0.000125 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 99 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 100 train-Loss: 0.000013 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 101 train-Loss: 0.000002 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 102 train-Loss: 0.000002 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 103 train-Loss: 0.000008 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 104 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 105 train-Loss: 0.000004 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 106 train-Loss: 0.000001 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 107 train-Loss: 0.000013 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 108 train-Loss: 0.000025 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 109 train-Loss: 0.000012 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 110 train-Loss: 0.000020 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 111 train-Loss: 0.000213 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 112 train-Loss: 0.000004 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 113 train-Loss: 0.000003 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 114 train-Loss: 0.000020 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 115 train-Loss: 0.000021 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:48 Epoch: 116 train-Loss: 0.000033 train-Acc: 1.0000
+05-04 20:59:48 current lr: [0.01]
+05-04 20:59:49 Epoch: 117 train-Loss: 0.000064 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 118 train-Loss: 0.000137 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 119 train-Loss: 0.000056 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 120 train-Loss: 0.000736 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 121 train-Loss: 0.000005 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 122 train-Loss: 0.000017 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 123 train-Loss: 0.000005 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 124 train-Loss: 0.000012 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 125 train-Loss: 0.000475 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 126 train-Loss: 0.000006 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 127 train-Loss: 0.000007 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 128 train-Loss: 0.000016 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 129 train-Loss: 0.000045 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 130 train-Loss: 0.000441 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 131 train-Loss: 0.000003 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 132 train-Loss: 0.000009 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 133 train-Loss: 0.000011 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 134 train-Loss: 0.000019 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 135 train-Loss: 0.000032 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 136 train-Loss: 0.000041 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 137 train-Loss: 0.000033 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 138 train-Loss: 0.000354 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 139 train-Loss: 0.000013 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 140 train-Loss: 0.000061 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 141 train-Loss: 0.000006 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 142 train-Loss: 0.000145 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 143 train-Loss: 0.000082 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 144 train-Loss: 0.000127 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 145 train-Loss: 0.000064 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 146 train-Loss: 0.000029 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 147 train-Loss: 0.000031 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 148 train-Loss: 0.000054 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 149 train-Loss: 0.000038 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 150 train-Loss: 0.000260 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 151 train-Loss: 0.000030 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 152 train-Loss: 0.000030 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 153 train-Loss: 0.000373 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 154 train-Loss: 0.000471 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 155 train-Loss: 0.000098 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 156 train-Loss: 0.000331 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 157 train-Loss: 0.000368 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 158 train-Loss: 0.000070 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 159 train-Loss: 0.000234 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 160 train-Loss: 0.000042 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 161 train-Loss: 0.000010 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 162 train-Loss: 0.000555 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 163 train-Loss: 0.000060 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 164 train-Loss: 0.000528 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 165 train-Loss: 0.000197 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 166 train-Loss: 0.000159 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 167 train-Loss: 0.000237 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 168 train-Loss: 0.000100 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 169 train-Loss: 0.000065 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 170 train-Loss: 0.000410 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 171 train-Loss: 0.000083 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 172 train-Loss: 0.000183 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 173 train-Loss: 0.001327 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 174 train-Loss: 0.000222 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 175 train-Loss: 0.000058 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 176 train-Loss: 0.000326 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 177 train-Loss: 0.000058 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 178 train-Loss: 0.000118 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 179 train-Loss: 0.000539 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 180 train-Loss: 0.000069 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 181 train-Loss: 0.000212 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 182 train-Loss: 0.000148 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 183 train-Loss: 0.000732 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 184 train-Loss: 0.000105 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 185 train-Loss: 0.000118 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 186 train-Loss: 0.000128 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 187 train-Loss: 0.000156 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 188 train-Loss: 0.000193 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 189 train-Loss: 0.000087 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 190 train-Loss: 0.000301 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 191 train-Loss: 0.000338 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 192 train-Loss: 0.000099 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 193 train-Loss: 0.000256 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 194 train-Loss: 0.000276 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 195 train-Loss: 0.000200 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 196 train-Loss: 0.000196 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 197 train-Loss: 0.000111 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 198 train-Loss: 0.001097 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.01]
+05-04 20:59:49 Epoch: 199 train-Loss: 0.000099 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:49 Epoch: 200 train-Loss: 0.000161 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:49 Epoch: 201 train-Loss: 0.000498 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:49 Epoch: 202 train-Loss: 0.000182 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:49 Epoch: 203 train-Loss: 0.002796 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:49 Epoch: 204 train-Loss: 0.000546 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:49 Epoch: 205 train-Loss: 0.000675 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:49 Epoch: 206 train-Loss: 0.002173 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:49 Epoch: 207 train-Loss: 0.000183 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:49 Epoch: 208 train-Loss: 0.000106 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:49 Epoch: 209 train-Loss: 0.000413 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:49 Epoch: 210 train-Loss: 0.001599 train-Acc: 1.0000
+05-04 20:59:49 current lr: [0.001]
+05-04 20:59:50 Epoch: 211 train-Loss: 0.000190 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 212 train-Loss: 0.000160 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 213 train-Loss: 0.000374 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 214 train-Loss: 0.000150 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 215 train-Loss: 0.000330 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 216 train-Loss: 0.000171 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 217 train-Loss: 0.000490 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 218 train-Loss: 0.000177 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 219 train-Loss: 0.000098 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 220 train-Loss: 0.000217 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 221 train-Loss: 0.000125 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 222 train-Loss: 0.000782 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 223 train-Loss: 0.000145 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 224 train-Loss: 0.000186 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 225 train-Loss: 0.000138 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 226 train-Loss: 0.000311 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 227 train-Loss: 0.000094 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 228 train-Loss: 0.000160 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 229 train-Loss: 0.000316 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 230 train-Loss: 0.000081 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 231 train-Loss: 0.000027 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 232 train-Loss: 0.000161 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 233 train-Loss: 0.000048 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 234 train-Loss: 0.000102 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 235 train-Loss: 0.000265 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 236 train-Loss: 0.000152 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 237 train-Loss: 0.000080 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 238 train-Loss: 0.000036 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 239 train-Loss: 0.000132 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 240 train-Loss: 0.000067 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 241 train-Loss: 0.000043 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 242 train-Loss: 0.000175 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 243 train-Loss: 0.000075 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 244 train-Loss: 0.000067 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 245 train-Loss: 0.000052 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 246 train-Loss: 0.000090 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 247 train-Loss: 0.000069 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 248 train-Loss: 0.000161 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 249 train-Loss: 0.000164 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 250 train-Loss: 0.000206 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 251 train-Loss: 0.000206 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 252 train-Loss: 0.000276 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 253 train-Loss: 0.000029 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 254 train-Loss: 0.000169 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 255 train-Loss: 0.000099 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 256 train-Loss: 0.000032 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 257 train-Loss: 0.000200 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 258 train-Loss: 0.000150 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 259 train-Loss: 0.000064 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 260 train-Loss: 0.000137 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 261 train-Loss: 0.000104 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 262 train-Loss: 0.000222 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 263 train-Loss: 0.000132 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 264 train-Loss: 0.000219 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 265 train-Loss: 0.000058 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 266 train-Loss: 0.000097 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 267 train-Loss: 0.000031 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 268 train-Loss: 0.000093 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 269 train-Loss: 0.000077 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 270 train-Loss: 0.000073 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 271 train-Loss: 0.000186 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 272 train-Loss: 0.000379 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 273 train-Loss: 0.000105 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 274 train-Loss: 0.000060 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 275 train-Loss: 0.000070 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 276 train-Loss: 0.000109 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 277 train-Loss: 0.000089 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 278 train-Loss: 0.000075 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 279 train-Loss: 0.000074 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 280 train-Loss: 0.000103 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 281 train-Loss: 0.000110 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 282 train-Loss: 0.000137 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 283 train-Loss: 0.000324 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 284 train-Loss: 0.000028 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 285 train-Loss: 0.000114 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 286 train-Loss: 0.000213 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 287 train-Loss: 0.000059 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 288 train-Loss: 0.000238 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 289 train-Loss: 0.000120 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 290 train-Loss: 0.000173 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 291 train-Loss: 0.000080 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 292 train-Loss: 0.000042 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 293 train-Loss: 0.000085 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 294 train-Loss: 0.000062 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 295 train-Loss: 0.000209 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 296 train-Loss: 0.000041 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 297 train-Loss: 0.000168 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 298 train-Loss: 0.000077 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.001]
+05-04 20:59:50 Epoch: 299 train-Loss: 0.000092 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.0001]
+05-04 20:59:50 Epoch: 300 train-Loss: 0.000158 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.0001]
+05-04 20:59:50 Epoch: 301 train-Loss: 0.000340 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.0001]
+05-04 20:59:50 Epoch: 302 train-Loss: 0.000109 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.0001]
+05-04 20:59:50 Epoch: 303 train-Loss: 0.000288 train-Acc: 1.0000
+05-04 20:59:50 current lr: [0.0001]
+05-04 20:59:51 Epoch: 304 train-Loss: 0.000094 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 305 train-Loss: 0.000234 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 306 train-Loss: 0.000224 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 307 train-Loss: 0.000099 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 308 train-Loss: 0.000096 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 309 train-Loss: 0.000172 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 310 train-Loss: 0.000358 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 311 train-Loss: 0.000106 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 312 train-Loss: 0.000128 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 313 train-Loss: 0.000111 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 314 train-Loss: 0.000142 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 315 train-Loss: 0.000044 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 316 train-Loss: 0.000178 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 317 train-Loss: 0.000106 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 318 train-Loss: 0.000180 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 319 train-Loss: 0.000151 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 320 train-Loss: 0.000100 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 321 train-Loss: 0.000094 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 322 train-Loss: 0.000089 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 323 train-Loss: 0.000058 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 324 train-Loss: 0.000080 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 325 train-Loss: 0.000073 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 326 train-Loss: 0.000075 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 327 train-Loss: 0.000111 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 328 train-Loss: 0.000057 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 329 train-Loss: 0.000047 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 330 train-Loss: 0.000050 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 331 train-Loss: 0.000127 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 332 train-Loss: 0.000081 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 333 train-Loss: 0.000127 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 334 train-Loss: 0.000098 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 335 train-Loss: 0.000082 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 336 train-Loss: 0.000034 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 337 train-Loss: 0.000180 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 338 train-Loss: 0.000034 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 339 train-Loss: 0.000068 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 340 train-Loss: 0.000189 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 341 train-Loss: 0.000067 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 342 train-Loss: 0.000198 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 343 train-Loss: 0.000076 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 344 train-Loss: 0.000064 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 345 train-Loss: 0.000052 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 346 train-Loss: 0.000097 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 347 train-Loss: 0.000068 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 348 train-Loss: 0.000139 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 349 train-Loss: 0.000114 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 350 train-Loss: 0.000295 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 351 train-Loss: 0.000311 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 352 train-Loss: 0.000044 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 353 train-Loss: 0.000208 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 354 train-Loss: 0.000186 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 355 train-Loss: 0.000060 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 356 train-Loss: 0.000638 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 357 train-Loss: 0.000130 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 358 train-Loss: 0.000219 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 359 train-Loss: 0.000055 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 360 train-Loss: 0.000041 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 361 train-Loss: 0.000028 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 362 train-Loss: 0.000336 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 363 train-Loss: 0.000056 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 364 train-Loss: 0.000123 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 365 train-Loss: 0.000028 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 366 train-Loss: 0.000252 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 367 train-Loss: 0.000126 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 368 train-Loss: 0.000147 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 369 train-Loss: 0.000183 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 370 train-Loss: 0.000258 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 371 train-Loss: 0.000304 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 372 train-Loss: 0.000109 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 373 train-Loss: 0.000116 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 374 train-Loss: 0.000065 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 375 train-Loss: 0.000181 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 376 train-Loss: 0.000079 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 377 train-Loss: 0.000142 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 378 train-Loss: 0.000130 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 379 train-Loss: 0.000070 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 380 train-Loss: 0.000214 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 381 train-Loss: 0.000150 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 382 train-Loss: 0.000185 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 383 train-Loss: 0.000400 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 384 train-Loss: 0.000084 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 385 train-Loss: 0.000133 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 386 train-Loss: 0.000349 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 387 train-Loss: 0.000085 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 388 train-Loss: 0.000062 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 389 train-Loss: 0.000071 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 390 train-Loss: 0.000227 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 391 train-Loss: 0.000158 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 392 train-Loss: 0.000177 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 393 train-Loss: 0.000075 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 394 train-Loss: 0.000021 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 395 train-Loss: 0.000109 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 396 train-Loss: 0.000108 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 397 train-Loss: 0.000061 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:51 Epoch: 398 train-Loss: 0.000096 train-Acc: 1.0000
+05-04 20:59:51 current lr: [0.0001]
+05-04 20:59:52 Epoch: 399 train-Loss: 0.000065 train-Acc: 1.0000, Cost 6.1638 sec
+05-04 20:59:52 Epoch: 399 test-Loss: 0.072343 test-Acc: 0.9789, Cost 0.0130 sec
